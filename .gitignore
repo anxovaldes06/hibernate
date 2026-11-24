@@ -1,1 +1,4 @@
-src/main/resources/persistence.xml
+# Ignorar persistence.xml 
+
+hibernate-demo/src/main/resources/META-INF/persistence.xml
+hibernate-demo/target/classes/META-INF/persistence.xml
