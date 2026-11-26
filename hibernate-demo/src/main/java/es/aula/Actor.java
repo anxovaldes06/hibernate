@@ -32,7 +32,7 @@ public class Actor {
 
     @Column(name = "last_update", nullable = false)
     private LocalDateTime lastUpdate;
-
+  
     @ManyToMany(fetch = FetchType.LAZY) // LAZY se usa para lectura sin modificación
 
     @JoinTable(name = "film_actor", joinColumns = @JoinColumn(name = "actor_id"), inverseJoinColumns = @JoinColumn(name = "film_id"))
